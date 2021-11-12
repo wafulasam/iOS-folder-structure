@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1FD551273E6B4E00A3A4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1FD550273E6B4E00A3A4AB /* LaunchScreen.storyboard */; };
+		AC1FD553273E6CF400A3A4AB /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD552273E6CF400A3A4AB /* AppStore.swift */; };
+		AC1FD555273E6DB500A3A4AB /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD554273E6DB500A3A4AB /* UserStore.swift */; };
+		AC1FD558273E6E4000A3A4AB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD557273E6E4000A3A4AB /* AuthService.swift */; };
+		AC1FD55A273E6EF500A3A4AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD559273E6EF500A3A4AB /* Constants.swift */; };
+		AC1FD55E273E6F9000A3A4AB /* Constants.ErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD55D273E6F9000A3A4AB /* Constants.ErrorCodes.swift */; };
+		AC1FD562273E709700A3A4AB /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD561273E709700A3A4AB /* Email.swift */; };
+		AC1FD564273E70EB00A3A4AB /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD563273E70EB00A3A4AB /* Users.swift */; };
+		AC1FD566273E721800A3A4AB /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD565273E721800A3A4AB /* Welcome.swift */; };
+		AC1FD569273E725700A3A4AB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD568273E725700A3A4AB /* CustomButton.swift */; };
+		AC1FD56C273E729400A3A4AB /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD56B273E729400A3A4AB /* Tabs.swift */; };
+		AC1FD56E273E738500A3A4AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC1FD56D273E738500A3A4AB /* Localizable.strings */; };
+		AC1FD570273E743A00A3A4AB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD56F273E743A00A3A4AB /* Utilities.swift */; };
+		AC1FD572273E756000A3A4AB /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD571273E756000A3A4AB /* Todos.swift */; };
+		AC64E5CC273E7B20002920FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64E5CB273E7B20002920FE /* SceneDelegate.swift */; };
+		AC64E5CE273E7B37002920FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64E5CD273E7B37002920FE /* AppDelegate.swift */; };
 		AC9DDDB7273E650800828162 /* SerengetiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDB6273E650800828162 /* SerengetiApp.swift */; };
 		AC9DDDB9273E650800828162 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDB8273E650800828162 /* ContentView.swift */; };
 		AC9DDDBB273E650A00828162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9DDDBA273E650A00828162 /* Assets.xcassets */; };
@@ -36,6 +52,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC1FD550273E6B4E00A3A4AB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC1FD552273E6CF400A3A4AB /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		AC1FD554273E6DB500A3A4AB /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		AC1FD557273E6E4000A3A4AB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		AC1FD559273E6EF500A3A4AB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC1FD55D273E6F9000A3A4AB /* Constants.ErrorCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.ErrorCodes.swift; sourceTree = "<group>"; };
+		AC1FD561273E709700A3A4AB /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		AC1FD563273E70EB00A3A4AB /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		AC1FD565273E721800A3A4AB /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		AC1FD568273E725700A3A4AB /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		AC1FD56B273E729400A3A4AB /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		AC1FD56D273E738500A3A4AB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		AC1FD56F273E743A00A3A4AB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		AC1FD571273E756000A3A4AB /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
+		AC64E5CB273E7B20002920FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC64E5CD273E7B37002920FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9DDDB3273E650800828162 /* Serengeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serengeti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9DDDB6273E650800828162 /* SerengetiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerengetiApp.swift; sourceTree = "<group>"; };
 		AC9DDDB8273E650800828162 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +110,7 @@
 		AC1FD546273E676B00A3A4AB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				AC9DDDBA273E650A00828162 /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -85,6 +118,7 @@
 		AC1FD547273E677900A3A4AB /* Localizable */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FD56D273E738500A3A4AB /* Localizable.strings */,
 			);
 			path = Localizable;
 			sourceTree = "<group>";
@@ -92,6 +126,8 @@
 		AC1FD548273E678A00A3A4AB /* Stores */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FD552273E6CF400A3A4AB /* AppStore.swift */,
+				AC1FD554273E6DB500A3A4AB /* UserStore.swift */,
 			);
 			path = Stores;
 			sourceTree = "<group>";
@@ -99,6 +135,9 @@
 		AC1FD549273E679C00A3A4AB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FD56A273E726800A3A4AB /* Navigation */,
+				AC1FD560273E701F00A3A4AB /* Screens */,
+				AC1FD55F273E700100A3A4AB /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,6 +145,8 @@
 		AC1FD54A273E67AE00A3A4AB /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FD559273E6EF500A3A4AB /* Constants.swift */,
+				AC1FD55D273E6F9000A3A4AB /* Constants.ErrorCodes.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -113,6 +154,7 @@
 		AC1FD54B273E67BC00A3A4AB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FD563273E70EB00A3A4AB /* Users.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -120,6 +162,7 @@
 		AC1FD54C273E67DE00A3A4AB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FD571273E756000A3A4AB /* Todos.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -127,6 +170,7 @@
 		AC1FD54D273E683700A3A4AB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FD56F273E743A00A3A4AB /* Utilities.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -134,6 +178,7 @@
 		AC1FD54E273E687E00A3A4AB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FD561273E709700A3A4AB /* Email.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -141,13 +186,55 @@
 		AC1FD54F273E68F700A3A4AB /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FD550273E6B4E00A3A4AB /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AC1FD556273E6E0500A3A4AB /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				AC1FD557273E6E4000A3A4AB /* AuthService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		AC1FD55F273E700100A3A4AB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC1FD567273E723E00A3A4AB /* Buttons */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC1FD560273E701F00A3A4AB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AC1FD565273E721800A3A4AB /* Welcome.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AC1FD567273E723E00A3A4AB /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				AC1FD568273E725700A3A4AB /* CustomButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		AC1FD56A273E726800A3A4AB /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AC1FD56B273E729400A3A4AB /* Tabs.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		AC9DDDAA273E650800828162 = {
 			isa = PBXGroup;
 			children = (
+				AC1FD54A273E67AE00A3A4AB /* Constants */,
 				AC9DDDB5273E650800828162 /* Serengeti */,
 				AC9DDDCB273E650B00828162 /* SerengetiTests */,
 				AC9DDDD5273E650B00828162 /* SerengetiUITests */,
@@ -168,19 +255,20 @@
 		AC9DDDB5273E650800828162 /* Serengeti */ = {
 			isa = PBXGroup;
 			children = (
-				AC1FD54F273E68F700A3A4AB /* Storyboard */,
+				AC1FD556273E6E0500A3A4AB /* Api */,
+				AC1FD546273E676B00A3A4AB /* Assets */,
 				AC1FD54E273E687E00A3A4AB /* Controllers */,
-				AC1FD54D273E683700A3A4AB /* Tools */,
 				AC1FD54C273E67DE00A3A4AB /* Resources */,
+				AC1FD54F273E68F700A3A4AB /* Storyboard */,
+				AC1FD54D273E683700A3A4AB /* Tools */,
 				AC1FD54B273E67BC00A3A4AB /* Models */,
-				AC1FD54A273E67AE00A3A4AB /* Constants */,
 				AC1FD549273E679C00A3A4AB /* Views */,
 				AC1FD548273E678A00A3A4AB /* Stores */,
 				AC1FD547273E677900A3A4AB /* Localizable */,
-				AC1FD546273E676B00A3A4AB /* Assets */,
 				AC9DDDB6273E650800828162 /* SerengetiApp.swift */,
 				AC9DDDB8273E650800828162 /* ContentView.swift */,
-				AC9DDDBA273E650A00828162 /* Assets.xcassets */,
+				AC64E5CB273E7B20002920FE /* SceneDelegate.swift */,
+				AC64E5CD273E7B37002920FE /* AppDelegate.swift */,
 				AC9DDDBF273E650A00828162 /* Persistence.swift */,
 				AC9DDDC1273E650A00828162 /* Serengeti.xcdatamodeld */,
 				AC9DDDBC273E650A00828162 /* Preview Content */,
@@ -317,6 +405,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1FD551273E6B4E00A3A4AB /* LaunchScreen.storyboard in Resources */,
+				AC1FD56E273E738500A3A4AB /* Localizable.strings in Resources */,
 				AC9DDDBE273E650A00828162 /* Preview Assets.xcassets in Resources */,
 				AC9DDDBB273E650A00828162 /* Assets.xcassets in Resources */,
 			);
@@ -343,10 +433,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1FD569273E725700A3A4AB /* CustomButton.swift in Sources */,
+				AC1FD555273E6DB500A3A4AB /* UserStore.swift in Sources */,
 				AC9DDDC3273E650A00828162 /* Serengeti.xcdatamodeld in Sources */,
+				AC1FD570273E743A00A3A4AB /* Utilities.swift in Sources */,
+				AC1FD553273E6CF400A3A4AB /* AppStore.swift in Sources */,
+				AC1FD55E273E6F9000A3A4AB /* Constants.ErrorCodes.swift in Sources */,
+				AC1FD566273E721800A3A4AB /* Welcome.swift in Sources */,
+				AC64E5CC273E7B20002920FE /* SceneDelegate.swift in Sources */,
 				AC9DDDC0273E650A00828162 /* Persistence.swift in Sources */,
+				AC1FD56C273E729400A3A4AB /* Tabs.swift in Sources */,
 				AC9DDDB9273E650800828162 /* ContentView.swift in Sources */,
+				AC1FD562273E709700A3A4AB /* Email.swift in Sources */,
+				AC64E5CE273E7B37002920FE /* AppDelegate.swift in Sources */,
 				AC9DDDB7273E650800828162 /* SerengetiApp.swift in Sources */,
+				AC1FD558273E6E4000A3A4AB /* AuthService.swift in Sources */,
+				AC1FD55A273E6EF500A3A4AB /* Constants.swift in Sources */,
+				AC1FD564273E70EB00A3A4AB /* Users.swift in Sources */,
+				AC1FD572273E756000A3A4AB /* Todos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
