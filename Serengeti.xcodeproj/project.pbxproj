@@ -234,7 +234,6 @@
 		AC9DDDAA273E650800828162 = {
 			isa = PBXGroup;
 			children = (
-				AC1FD54A273E67AE00A3A4AB /* Constants */,
 				AC9DDDB5273E650800828162 /* Serengeti */,
 				AC9DDDCB273E650B00828162 /* SerengetiTests */,
 				AC9DDDD5273E650B00828162 /* SerengetiUITests */,
@@ -257,6 +256,7 @@
 			children = (
 				AC1FD556273E6E0500A3A4AB /* Api */,
 				AC1FD546273E676B00A3A4AB /* Assets */,
+				AC1FD54A273E67AE00A3A4AB /* Constants */,
 				AC1FD54E273E687E00A3A4AB /* Controllers */,
 				AC1FD547273E677900A3A4AB /* Localizable */,
 				AC1FD54B273E67BC00A3A4AB /* Models */,
