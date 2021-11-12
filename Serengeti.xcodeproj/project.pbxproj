@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC9DDDB7273E650800828162 /* SerengetiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDB6273E650800828162 /* SerengetiApp.swift */; };
+		AC9DDDB9273E650800828162 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDB8273E650800828162 /* ContentView.swift */; };
+		AC9DDDBB273E650A00828162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9DDDBA273E650A00828162 /* Assets.xcassets */; };
+		AC9DDDBE273E650A00828162 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9DDDBD273E650A00828162 /* Preview Assets.xcassets */; };
+		AC9DDDC0273E650A00828162 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDBF273E650A00828162 /* Persistence.swift */; };
+		AC9DDDC3273E650A00828162 /* Serengeti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDC1273E650A00828162 /* Serengeti.xcdatamodeld */; };
+		AC9DDDCD273E650B00828162 /* SerengetiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDCC273E650B00828162 /* SerengetiTests.swift */; };
+		AC9DDDD7273E650B00828162 /* SerengetiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDD6273E650B00828162 /* SerengetiUITests.swift */; };
+		AC9DDDD9273E650B00828162 /* SerengetiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDD8273E650B00828162 /* SerengetiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9DDDC9273E650B00828162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9DDDAB273E650800828162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9DDDB2273E650800828162;
+			remoteInfo = Serengeti;
+		};
+		AC9DDDD3273E650B00828162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9DDDAB273E650800828162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9DDDB2273E650800828162;
+			remoteInfo = Serengeti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC9DDDB3273E650800828162 /* Serengeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serengeti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9DDDB6273E650800828162 /* SerengetiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerengetiApp.swift; sourceTree = "<group>"; };
+		AC9DDDB8273E650800828162 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC9DDDBA273E650A00828162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9DDDBD273E650A00828162 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC9DDDBF273E650A00828162 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AC9DDDC2273E650A00828162 /* Serengeti.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Serengeti.xcdatamodel; sourceTree = "<group>"; };
+		AC9DDDC8273E650B00828162 /* SerengetiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerengetiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9DDDCC273E650B00828162 /* SerengetiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerengetiTests.swift; sourceTree = "<group>"; };
+		AC9DDDD2273E650B00828162 /* SerengetiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerengetiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9DDDD6273E650B00828162 /* SerengetiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerengetiUITests.swift; sourceTree = "<group>"; };
+		AC9DDDD8273E650B00828162 /* SerengetiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerengetiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9DDDB0273E650800828162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9DDDC5273E650B00828162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9DDDCF273E650B00828162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1FD546273E676B00A3A4AB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AC1FD547273E677900A3A4AB /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		AC1FD548273E678A00A3A4AB /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		AC1FD549273E679C00A3A4AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC1FD54A273E67AE00A3A4AB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AC1FD54B273E67BC00A3A4AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC1FD54C273E67DE00A3A4AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC1FD54D273E683700A3A4AB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AC1FD54E273E687E00A3A4AB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AC1FD54F273E68F700A3A4AB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AC9DDDAA273E650800828162 = {
+			isa = PBXGroup;
+			children = (
+				AC9DDDB5273E650800828162 /* Serengeti */,
+				AC9DDDCB273E650B00828162 /* SerengetiTests */,
+				AC9DDDD5273E650B00828162 /* SerengetiUITests */,
+				AC9DDDB4273E650800828162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9DDDB4273E650800828162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DDDB3273E650800828162 /* Serengeti.app */,
+				AC9DDDC8273E650B00828162 /* SerengetiTests.xctest */,
+				AC9DDDD2273E650B00828162 /* SerengetiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9DDDB5273E650800828162 /* Serengeti */ = {
+			isa = PBXGroup;
+			children = (
+				AC1FD54F273E68F700A3A4AB /* Storyboard */,
+				AC1FD54E273E687E00A3A4AB /* Controllers */,
+				AC1FD54D273E683700A3A4AB /* Tools */,
+				AC1FD54C273E67DE00A3A4AB /* Resources */,
+				AC1FD54B273E67BC00A3A4AB /* Models */,
+				AC1FD54A273E67AE00A3A4AB /* Constants */,
+				AC1FD549273E679C00A3A4AB /* Views */,
+				AC1FD548273E678A00A3A4AB /* Stores */,
+				AC1FD547273E677900A3A4AB /* Localizable */,
+				AC1FD546273E676B00A3A4AB /* Assets */,
+				AC9DDDB6273E650800828162 /* SerengetiApp.swift */,
+				AC9DDDB8273E650800828162 /* ContentView.swift */,
+				AC9DDDBA273E650A00828162 /* Assets.xcassets */,
+				AC9DDDBF273E650A00828162 /* Persistence.swift */,
+				AC9DDDC1273E650A00828162 /* Serengeti.xcdatamodeld */,
+				AC9DDDBC273E650A00828162 /* Preview Content */,
+			);
+			path = Serengeti;
+			sourceTree = "<group>";
+		};
+		AC9DDDBC273E650A00828162 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DDDBD273E650A00828162 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC9DDDCB273E650B00828162 /* SerengetiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DDDCC273E650B00828162 /* SerengetiTests.swift */,
+			);
+			path = SerengetiTests;
+			sourceTree = "<group>";
+		};
+		AC9DDDD5273E650B00828162 /* SerengetiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DDDD6273E650B00828162 /* SerengetiUITests.swift */,
+				AC9DDDD8273E650B00828162 /* SerengetiUITestsLaunchTests.swift */,
+			);
+			path = SerengetiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9DDDB2273E650800828162 /* Serengeti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9DDDDC273E650B00828162 /* Build configuration list for PBXNativeTarget "Serengeti" */;
+			buildPhases = (
+				AC9DDDAF273E650800828162 /* Sources */,
+				AC9DDDB0273E650800828162 /* Frameworks */,
+				AC9DDDB1273E650800828162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Serengeti;
+			productName = Serengeti;
+			productReference = AC9DDDB3273E650800828162 /* Serengeti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9DDDC7273E650B00828162 /* SerengetiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9DDDDF273E650B00828162 /* Build configuration list for PBXNativeTarget "SerengetiTests" */;
+			buildPhases = (
+				AC9DDDC4273E650B00828162 /* Sources */,
+				AC9DDDC5273E650B00828162 /* Frameworks */,
+				AC9DDDC6273E650B00828162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9DDDCA273E650B00828162 /* PBXTargetDependency */,
+			);
+			name = SerengetiTests;
+			productName = SerengetiTests;
+			productReference = AC9DDDC8273E650B00828162 /* SerengetiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC9DDDD1273E650B00828162 /* SerengetiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9DDDE2273E650B00828162 /* Build configuration list for PBXNativeTarget "SerengetiUITests" */;
+			buildPhases = (
+				AC9DDDCE273E650B00828162 /* Sources */,
+				AC9DDDCF273E650B00828162 /* Frameworks */,
+				AC9DDDD0273E650B00828162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9DDDD4273E650B00828162 /* PBXTargetDependency */,
+			);
+			name = SerengetiUITests;
+			productName = SerengetiUITests;
+			productReference = AC9DDDD2273E650B00828162 /* SerengetiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9DDDAB273E650800828162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AC9DDDB2273E650800828162 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AC9DDDC7273E650B00828162 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AC9DDDB2273E650800828162;
+					};
+					AC9DDDD1273E650B00828162 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AC9DDDB2273E650800828162;
+					};
+				};
+			};
+			buildConfigurationList = AC9DDDAE273E650800828162 /* Build configuration list for PBXProject "Serengeti" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9DDDAA273E650800828162;
+			productRefGroup = AC9DDDB4273E650800828162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9DDDB2273E650800828162 /* Serengeti */,
+				AC9DDDC7273E650B00828162 /* SerengetiTests */,
+				AC9DDDD1273E650B00828162 /* SerengetiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9DDDB1273E650800828162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9DDDBE273E650A00828162 /* Preview Assets.xcassets in Resources */,
+				AC9DDDBB273E650A00828162 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9DDDC6273E650B00828162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9DDDD0273E650B00828162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9DDDAF273E650800828162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9DDDC3273E650A00828162 /* Serengeti.xcdatamodeld in Sources */,
+				AC9DDDC0273E650A00828162 /* Persistence.swift in Sources */,
+				AC9DDDB9273E650800828162 /* ContentView.swift in Sources */,
+				AC9DDDB7273E650800828162 /* SerengetiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9DDDC4273E650B00828162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9DDDCD273E650B00828162 /* SerengetiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9DDDCE273E650B00828162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9DDDD7273E650B00828162 /* SerengetiUITests.swift in Sources */,
+				AC9DDDD9273E650B00828162 /* SerengetiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9DDDCA273E650B00828162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9DDDB2273E650800828162 /* Serengeti */;
+			targetProxy = AC9DDDC9273E650B00828162 /* PBXContainerItemProxy */;
+		};
+		AC9DDDD4273E650B00828162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9DDDB2273E650800828162 /* Serengeti */;
+			targetProxy = AC9DDDD3273E650B00828162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC9DDDDA273E650B00828162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC9DDDDB273E650B00828162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9DDDDD273E650B00828162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Serengeti/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serengeti.Serengeti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC9DDDDE273E650B00828162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Serengeti/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serengeti.Serengeti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC9DDDE0273E650B00828162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serengeti.SerengetiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Serengeti.app/Serengeti";
+			};
+			name = Debug;
+		};
+		AC9DDDE1273E650B00828162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serengeti.SerengetiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Serengeti.app/Serengeti";
+			};
+			name = Release;
+		};
+		AC9DDDE3273E650B00828162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serengeti.SerengetiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Serengeti;
+			};
+			name = Debug;
+		};
+		AC9DDDE4273E650B00828162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serengeti.SerengetiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Serengeti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9DDDAE273E650800828162 /* Build configuration list for PBXProject "Serengeti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9DDDDA273E650B00828162 /* Debug */,
+				AC9DDDDB273E650B00828162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9DDDDC273E650B00828162 /* Build configuration list for PBXNativeTarget "Serengeti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9DDDDD273E650B00828162 /* Debug */,
+				AC9DDDDE273E650B00828162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9DDDDF273E650B00828162 /* Build configuration list for PBXNativeTarget "SerengetiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9DDDE0273E650B00828162 /* Debug */,
+				AC9DDDE1273E650B00828162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9DDDE2273E650B00828162 /* Build configuration list for PBXNativeTarget "SerengetiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9DDDE3273E650B00828162 /* Debug */,
+				AC9DDDE4273E650B00828162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC9DDDC1273E650A00828162 /* Serengeti.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC9DDDC2273E650A00828162 /* Serengeti.xcdatamodel */,
+			);
+			currentVersion = AC9DDDC2273E650A00828162 /* Serengeti.xcdatamodel */;
+			path = Serengeti.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC9DDDAB273E650800828162 /* Project object */;
+}
