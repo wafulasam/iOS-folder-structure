@@ -21,6 +21,7 @@
 		AC1FD56E273E738500A3A4AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC1FD56D273E738500A3A4AB /* Localizable.strings */; };
 		AC1FD570273E743A00A3A4AB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD56F273E743A00A3A4AB /* Utilities.swift */; };
 		AC1FD572273E756000A3A4AB /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD571273E756000A3A4AB /* Todos.swift */; };
+		AC218FFB273FCE57003FD5C5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC218FFA273FCE57003FD5C5 /* Utils.swift */; };
 		AC64E5CC273E7B20002920FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64E5CB273E7B20002920FE /* SceneDelegate.swift */; };
 		AC64E5CE273E7B37002920FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64E5CD273E7B37002920FE /* AppDelegate.swift */; };
 		AC9DDDB7273E650800828162 /* SerengetiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDB6273E650800828162 /* SerengetiApp.swift */; };
@@ -66,6 +67,7 @@
 		AC1FD56D273E738500A3A4AB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		AC1FD56F273E743A00A3A4AB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		AC1FD571273E756000A3A4AB /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
+		AC218FFA273FCE57003FD5C5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		AC64E5CB273E7B20002920FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AC64E5CD273E7B37002920FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9DDDB3273E650800828162 /* Serengeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serengeti.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,6 +233,14 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		AC218FF9273FCE45003FD5C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC218FFA273FCE57003FD5C5 /* Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		AC9DDDAA273E650800828162 = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +268,7 @@
 				AC1FD546273E676B00A3A4AB /* Assets */,
 				AC1FD54A273E67AE00A3A4AB /* Constants */,
 				AC1FD54E273E687E00A3A4AB /* Controllers */,
+				AC218FF9273FCE45003FD5C5 /* Extensions */,
 				AC1FD547273E677900A3A4AB /* Localizable */,
 				AC1FD54B273E67BC00A3A4AB /* Models */,
 				AC1FD54C273E67DE00A3A4AB /* Resources */,
@@ -450,6 +461,7 @@
 				AC1FD558273E6E4000A3A4AB /* AuthService.swift in Sources */,
 				AC1FD55A273E6EF500A3A4AB /* Constants.swift in Sources */,
 				AC1FD564273E70EB00A3A4AB /* Users.swift in Sources */,
+				AC218FFB273FCE57003FD5C5 /* Utils.swift in Sources */,
 				AC1FD572273E756000A3A4AB /* Todos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
